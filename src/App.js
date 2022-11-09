@@ -11,8 +11,8 @@ class App extends Component {
       <div className="App">
         <label htmlFor="task">Task:</label>
         <input type="text" id="task" />
-        <Overview/>
         <button>Add</button>
+        <Overview/>
       </div>
     );
   }
