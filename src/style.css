@@ -1,0 +1,22 @@
+/* reset */
+input{
+    appearance: none;
+}
+/* size and layout */
+form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 20px;
+}
+
+input{
+    box-sizing: border-box;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    font-size: 12px;
+}
+label{
+    font-size: 20px;
+}
